@@ -19,7 +19,7 @@ export default class Books extends React.Component {
 
   render() {
     return (<div className="Books">
-      <h4>{`${this.props.firtName}'s'`} Books</h4>
+      <h4>{`${this.props.firstName}'s`} Books</h4>
       <ul className="tabs clearfix">
         <li onClick={ this.handleChangeTabs } className={`tab ${this.setActiveClassOnTab('read')}`} data-tab="read">Read</li>
         <li onClick={ this.handleChangeTabs } className={`tab ${this.setActiveClassOnTab('unread')}`} data-tab="unread">Unread</li>
