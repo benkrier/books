@@ -24,9 +24,20 @@ body {
   clear: both;
 }
 
+.Books {
+  border: 1px solid #eee;
+  border-radius: 3px;
+}
+
 .Books h4 {
   margin: 0;
   padding: 15px;
+  border-bottom: 1px solid #eee;
+}
+
+.Books .tabs {
+  padding: 0;
+  margin: 0;
   border-bottom: 1px solid #eee;
 }
 
@@ -41,6 +52,11 @@ body {
 
 .Books .tabs li:hover {
   cursor: pointer;
+}
+
+.Books .tabs li.active {
+  position: relative;
+  color: #444;
 }
 
 .Books .tabs li.active:after {
