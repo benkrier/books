@@ -1,5 +1,5 @@
 import { Meteor } from 'meteor/meteor';
-import { Books } from '.books';
+import { Books } from './books';
 
 Meteor.methods({
   addBook(book) {
